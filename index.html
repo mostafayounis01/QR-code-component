@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        margin-top: 10rem;
+        display: flex;
+        font-family: "Outfit", sans-serif;
+        justify-content: center;
+        align-items: center;
+        background-color: #D5E1EF;
+      }
+      section {
+        width: 210px;
+        height: 337px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 3%;
+        background-color: #fff;
+      }
+      img {
+        width: 190px;
+        height: 190px;
+        border-radius: 5%;
+        margin: 1rem 1rem 1rem 1rem;
+      }
+      .para {
+        width: 185px;
+        font-size: 15px;
+        font-weight: 700;
+        margin-left: 1rem;
+      }
+      .para2 {
+        width: 181px;
+        font-size: 10px;
+        font-weight: 400;
+        text-align: center;
+        margin: 1rem 1rem 1rem 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <img src="./images/image-qr-code.png" alt="qr-image" />
+      <p class="para">Improve your front-end skills by building projects</p>
+      <span class="para2"
+        >Scan the QR code to visit Frontend Mentor and take your coding skills
+        to the next level</span
+      >
+    </section>
+  </body>
+</html>
